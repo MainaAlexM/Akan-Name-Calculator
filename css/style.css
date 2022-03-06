@@ -52,9 +52,11 @@ p{
 .btn{
     margin: 1rem auto;
 }
-/* .akan{
-    border: solid thin 2rem blueviolet;
-} */
+.akan{
+    border: solid thin blueviolet;
+    height: 8rem;
+    padding: 0.4rem 0.2rem;
+}
 #result{
     font-size: larger;
     color: blue;
