@@ -1,5 +1,5 @@
 function formReset(){
-    document.getElementById("form_data").requestFullscreen();
+    document.getElementById("form_data").reset();
 }
 
 function evaluation(){
@@ -30,25 +30,15 @@ function evaluation(){
 
         // Name evaluation logic
 
-        if (gender = "female"){
-            let femaleAkan = femaleAkans[birthDay];
-            alert("You are female and your akan Name is " + femaleAkan);
-          }
-             else if (gender = "male"){
+        if (gender == "male"){
             let akan = maleAkans[birthDay];
             alert("You are male and your akan Name is " + akan);
           } 
+          else if (gender == "female"){
+            let femaleAkan = femaleAkans[birthDay];
+            alert("You are female and your akan Name is " + femaleAkan);
+          }
           else{
           alert("Please select your gender and select a valid date");
           }
-      
 }
-
-// const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-
-// const d = new Date();
-// let day = weekday[d.getDay()];
-
-
-
-
