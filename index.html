@@ -12,12 +12,20 @@
     <div class="container
     ">
         <div class="nav">
-            <ul>
-                <li>About</li>
-                <li>Akan Names</li>
-                <li>Calculate</li>
-                <li>Contacts</li>
-            </ul>
+            <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#calculate">Calculate</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#contact">Contacts</a>
+                </li>
+              </ul>
         </div>
 
         <hr>
@@ -30,7 +38,7 @@
 
             <div class="calculate">
                 <h2>Calculate Your Akan Name </h2>
-                <p>Input your Birth-day and gender details to calculate. Click the "Submit" button to view results.</p>
+                <p>Input your Birth-day and gender details to get your Akan Name. Click the "Submit" button to view results.</p>
             </div>
         </div>
 
@@ -38,6 +46,9 @@
             
          <div class="calculator form-control-lg " >
              <form action="" id="form-data" class="form row">
+                 <h3>Akan Name Calculator</h3>
+                 <hr>
+                 <p>Input your Birth-day and gender details to get your Akan Name. Click the "Submit" button to view results.</p>
 
                 <!-- <label for="dateOfBirth">Enter Your <strong>Year</strong> of Birth</label>
                  <input type="number" id="dateBorn" placeholder="Date" required>
@@ -49,7 +60,7 @@
                  <input type="number" id="YearBorn" placeholder="Year" required> -->
  
                  <label for="gender">Your gender</label>
-                 <select name="select" id="gender" placeholder="select">
+                 <select name="select" id="gender" placeholder="select" required>
                      <option value="default" id="default">Select Gender</option>
                      <option value="male" id="male">Male</option>
                      <option value="female" id="female">Female</option>
@@ -60,7 +71,7 @@
                  <input type="date" id="birthDay" placeholder="dd/mm/yy" required>
 
                  <div class="btn">
-                    <button id="submit" type="button" onclick="nameEvaluation()">Submit</button> 
+                    <button id="submit" type="button" onclick="evaluation()">Submit</button> 
                  </div>
              </form>
              <p id="result">Here are the results</p>

@@ -26,6 +26,10 @@ p{
 .section2{
     height: 30vh;
 }
+#result{
+    font-size: larger;
+    color: blue;
+}
 .footer{
     height: 15vh;
     background-color: rgb(203, 248, 158);
