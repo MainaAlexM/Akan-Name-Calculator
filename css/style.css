@@ -60,12 +60,18 @@ p{
 #result{
     font-size: larger;
     color: blue;
+    text-align: center;
+}
+.contact{
+    margin: 2rem auto;
+    text-align: center;
 }
 .footer{
-    height: 15vh;
+    height: 5vh;
     background-color: rgb(203, 248, 158);
     display:flex;
     flex-direction: column;
+    padding: 0.2rem auto;
 }
 .footer p{
     padding: 0.4rem;
