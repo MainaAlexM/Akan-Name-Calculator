@@ -12,7 +12,7 @@
     <div class="container">
 
        
-        <div class="nav justify-content-center nav-tabs nav-justified nav-fill">
+        <div class="nav navbar navbar-light justify-content-center nav-tabs nav-justified nav-fill">
             <ul class="nav">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -30,20 +30,77 @@
         </div>
 
         <div class="welcome">
-            <img src="./images/ghana.jpeg" alt="Ghanaian Traditions">
+            
         </div>
 
         <div class="section1">
             <div class="introduction">
-                <h2>About Akan Names</h2>
-                <p>An Akan names are derived from the ghanaian traditonal naming system. Each name represents which day of the week one was born. In a similar fashion, one can use the Akan Name calculator to know their relative Akan Name.</p>
+                <h2>Akan Names</h2>
+                <p>Akan names are derived from the ghanaian traditonal naming system. Each name represents which day of the week one was born. Different genders have differing Akan names for their respective days of Birth.</p>
+            </div>
+            <div class="sample">
+                <h3>Sample Akan Names</h3>
+                <table class="table-light table table-success table-striped">
+                    <tr class="table-light">
+                        <td class="table-light">#</td>
+                        <td class="table-light">Day</td>
+                        <td class="table-light">Male</td>
+                        <td class="table-light">Female</td>
+                    </tr>
+                    <tr class="table-light">
+                        <td 
+                        class="table-light">0</td>
+                        <td class="table-light">sunday</td>
+                        <td class="table-light">Kwasi</td>
+                        <td class="table-light">Akosua</td>
+                    </tr>
+                    
+                    <tr class="table-light">
+                        <td class="table-light">1</td>
+                        <td class="table-light">Monday</td>
+                        <td class="table-light">Kwadwo</td>
+                        <td class="table-light">Adwoa</td>
+                    </tr>
+                    <tr class="table-light">
+                        <td class="table-light">2</td>
+                        <td class="table-light">Tuesday</td>
+                        <td class="table-light">Kwabena</td>
+                        <td class="table-light">Abenaa</td>
+                    </tr>
+                    <tr class="table-light">
+                        <td class="table-light">3</td>
+                        <td class="table-light">Wednesday</td>
+                        <td class="table-light">Kwaku</td>
+                        <td class="table-light">Akua</td>
+                    </tr>
+                    <tr class="table-light">
+                        <td class="table-light">4</td>
+                        <td class="table-light">Thursday</td>
+                        <td class="table-light">Yaw</td>
+                        <td class="table-light">Yaa</td>
+                    </tr>
+                    <tr class="table-light">
+                        <td class="table-light">5</td>
+                        <td class="table-light">Friday</td>
+                        <td class="table-light">Kofi</td>
+                        <td class="table-light">Afua</td>
+                    </tr>
+                    <tr class="table-light">
+                        <td class="table-light">6</td>
+                        <td class="table-light">Saturday</td>
+                        <td class="table-light">Kwame</td>
+                        <td class="table-light">Ama</td>
+                    </tr>
+                </table>
             </div>
 
             <div class="calculate">
                 <h2>Calculate Your Akan Name </h2>
-                <p>Input your Birth-day and gender details to get your Akan Name. Click the "Submit" button to view results.</p>
+                <p>In the form below, select your gender and choose your Birth-day from the calendar provided. Click on the "Submit" button to view your respective Akan Name.</p>
             </div>
         </div>
+
+        
 
         <div class="section2">
             
@@ -73,7 +130,7 @@
                  <label for="birthDay">Enter Your <strong>Birth Date</strong> </label>
                  <input type="date" id="birthDay" placeholder="dd/mm/yy" required>
 
-                 <div class="btn">
+                 <div class="btn btn-primary">
                     <button id="submit" type="button" onclick="evaluation()">Submit</button> 
                  </div>
              </form>
