@@ -7,7 +7,6 @@ function evaluation(){
     var day = document.getElementById("birthDay").value;
     var gender = document.getElementById("gender").value;
     var outputMessage;
-    alert(day);
 
         // Get the day index (0-6) 0 = sunday
     const d = new Date(day);    // Date(01 June 2010)
@@ -16,7 +15,6 @@ function evaluation(){
         // Determine the exact day using index
     const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
     let exactDay = days[birthDay];
-    alert(typeof exactDay);
     
         // Use index to determine the Arkan name
     const maleAkans = ["Kwasi"," Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
