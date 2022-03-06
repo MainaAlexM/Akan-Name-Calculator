@@ -4,6 +4,8 @@ function formReset(){
 
 function evaluation(){
     var day = document.getElementById("birthDay").value;
+    var sex = document.getElementById("gender").value;
+    alert(sex);
 
     const d = new Date(day);
     let birthDay = d.getDay();
