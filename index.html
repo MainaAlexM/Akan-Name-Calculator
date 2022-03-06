@@ -41,12 +41,12 @@
             <div class="sample">
                 <h3>Sample Akan Names</h3>
                 <table class="table-light table table-success table-striped">
-                    <tr class="table-light">
+                    <h3><tr class="table-light" >
                         <td class="table-light">#</td>
                         <td class="table-light">Day</td>
                         <td class="table-light">Male</td>
                         <td class="table-light">Female</td>
-                    </tr>
+                    </tr></h3>
                     <tr class="table-light">
                         <td 
                         class="table-light">0</td>
@@ -105,7 +105,7 @@
         <div class="section2">
             
          <div class="calculator form-control-lg " >
-             <form action="" id="form-data" class="form row">
+             <form action="" id="form-data" class="form row form-control-lg form-label">
                  <h3>Akan Name Calculator</h3>
                  <hr>
                  <p>Input your Birth-day and gender details to get your Akan Name. Click the "Submit" button to view results.</p>
@@ -130,11 +130,13 @@
                  <label for="birthDay">Enter Your <strong>Birth Date</strong> </label>
                  <input type="date" id="birthDay" placeholder="dd/mm/yy" required>
 
-                 <div class="btn btn-primary">
-                    <button id="submit" type="button" onclick="evaluation()">Submit</button> 
+                 <div class="submission">
+                    <button id="submit" type="button" class="btn btn-primary" onclick="evaluation()">Submit</button> 
                  </div>
              </form>
-             <p id="result">Here are the results</p>
+             <div class="akan">
+                <p id="result">Here are the results</p>
+             </div>
          </div>
 
          <footer class="footer">
