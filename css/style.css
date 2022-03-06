@@ -40,7 +40,8 @@ p{
 }
 
 .section2{
-    height: 50vh;
+    height: 100vh;
+    background-color: #e3f2fd;
 }
 .form{
     width: 70%;
@@ -53,7 +54,7 @@ p{
     margin: 1rem auto;
 }
 .akan{
-    border: solid thin blueviolet;
+    box-shadow: inset salmon blue;
     height: 8rem;
     padding: 0.4rem 0.2rem;
 }
@@ -65,6 +66,9 @@ p{
 .contact{
     margin: 2rem auto;
     text-align: center;
+}
+.phone, .email{
+    color: blue;
 }
 .footer{
     height: 5vh;
